@@ -1,0 +1,6 @@
+Page d'accueil: #001730
+Volet: #4AD7D1
+Page3: #EF8A17
+Page4: #0090C1
+Page5: #022F40
+Texte: Blanc ( #FFFFFF )

@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="DMBDDV_1_0.Views.AjouterRecette"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DMBDDV_1_0.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="650" d:DesignWidth="930" Background="#001730">
+    <StackPanel x:Name="MainPanel" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock Text="Ajout de recette" Foreground="White" HorizontalAlignment="Center"
+                   FontSize="50" Margin="0 0 0 50"
+                   />
+
+
+
+        <StackPanel HorizontalAlignment="Center" Orientation="Horizontal"
+                    Margin="0 0 0 30"
+                    >
+            <TextBox FontSize="20" Width="250" 
+                     Foreground="Gray"
+                     Height="40"                  
+                     Background="White" Text="Nom"
+                     Margin="0 0 0 0"
+                     x:Name="Nom"
+                     
+            />
+            <TextBox FontSize="20" Width="250" Height="40"                   
+                     Foreground="Gray"                                      
+                     Background="White" Text="Type"                   
+                     Margin="100 0 0 0"
+                     x:Name="Type"
+                     
+                     />
+        </StackPanel>
+        <TextBox HorizontalAlignment="Center" FontSize="20" Width="600"  Height="80"                   
+                     Foreground="Gray"                   
+                     Background="White" Text="Ingrédients"                   
+                     
+                     x:Name="Ingredients" 
+                     
+            />
+        <TextBox Margin="0 50 0 0" HorizontalAlignment="Center" FontSize="20" Width="600"  Height="80"                   
+                     Foreground="Gray"                   
+                     Background="White" Text="Instructions"                   
+                     
+                     x:Name="Instructions" 
+                     
+            />
+        
+        
+        <Button Margin="0 50 0 0" Click="Valider_Button_Click" x:Name="Valider_Button" Width="200" Height="50" Background="#4AD7D1">
+            <TextBlock x:Name="Valider_TextBlock" Foreground="Black" Text="Valider" 
+                       FontSize="30"/>
+        </Button>
+    </StackPanel>
+</UserControl>
