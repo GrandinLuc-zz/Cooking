@@ -1,5 +1,5 @@
 # Cooking
-A desktop application for food amateurs that allows you to order food based on recipes from the Cooking communauty. This application is coded in C# and WPF, the server is SQL based as I used mySQL.
+A desktop application for food amateurs that allows you to order food based on recipes from the Cooking communauty. This application is coded in C# with the WPF framework, the server is SQL based as I used the mySQL database service.
 
 # Landing page
 The menu on the left is by default collapsed, the screenshot under the Recipes section is shown with the menu expanded
