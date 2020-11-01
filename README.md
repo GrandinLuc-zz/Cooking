@@ -25,14 +25,14 @@ List of all the recipes you choosed to order in the Recipes section
 # Add recipes
 The option for you to add your own recipes
 
-<img src="Screenshots/Memory.png"
+<img src="Screenshots/Ajouter.png"
      alt="Accueil"
      style="float: left; margin-right: 10px; margin-bottom: 20px" />
      
 # Demonstration
 As the app was an academic project there needed to be a 'demo mode' in order to show that we were able to make some SQL requests and display some key data
 
-<img src="Screenshots/Demo.png"
+<img src="Screenshots/Démo.png"
      alt="Demo"
      style="float: left; margin-right: 10px; margin-bottom: 20px" />
   
