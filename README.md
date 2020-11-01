@@ -2,34 +2,37 @@
 A desktop application for food amateurs that allows you to order food based on recipes from the Cooking communauty. This application is coded in C# and WPF, the server is SQL based as I used mySQL.
 
 # Landing page
+The menu on the left is by default collapsed, the screenshot under the Recipes section is shown with the menu expanded
+
 <img src="Screenshots/Accueil.png"
      alt="Accueil"
      style="float: left; margin-right: 10px; margin-bottom: 20px" />
 
-# Members
-List of every members of the tennis club
+# Recipes
+List of the recipes offered by the community the sorting options trigger SQL requests to sort the data according to the user wishes
 
-<img src="Screenshots/Membres.png"
-     alt="Accueil"
+<img src="Screenshots/RecettesEtendues.png"
+     alt="Recettes"
      style="float: left; margin-right: 10px; margin-bottom: 10px; margin-top: 10px" />
 
-# Tournaments
-List of every tournament people from the club can compete in with the option to display the person that are already registered for this tournament
+# Basket
+List of all the recipes you choosed to order in the Recipes section
 
-<img src="Screenshots/Compétitions.png"
-     alt="Accueil"
+<img src="Screenshots/Panier.png"
+     alt="Panier"
      style="float: left; margin-right: 10px; margin-bottom: 20px" />
      
-# Statistics
-Some statistics regarding the tennis club and its members
-
-<img src="Screenshots/Stats.png"
-     alt="Accueil"
-     style="float: left; margin-right: 10px; margin-bottom: 20px" />
-     
-# Memory
-A little game to kill the time in between matches and train your memory
+# Add recipes
+The option for you to add your own recipes
 
 <img src="Screenshots/Memory.png"
      alt="Accueil"
      style="float: left; margin-right: 10px; margin-bottom: 20px" />
+     
+# Demonstration
+As the app was an academic project there needed to be a 'demo mode' in order to show that we were able to make some SQL requests and display some key data
+
+<img src="Screenshots/Demo.png"
+     alt="Demo"
+     style="float: left; margin-right: 10px; margin-bottom: 20px" />
+  
